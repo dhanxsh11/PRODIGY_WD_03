@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="game-board" class="board">
+            <!-- The game board will be dynamically generated here -->
+        </div>
+        <div id="game-status">
+            <p id="status-message">It's Player X's turn</p>
+        </div>
+        <div id="options">
+            <button id="new-game-btn">New Game (AI Opponent)</button>
+            <button id="multiplayer-mode-btn">Multiplayer</button>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>
